@@ -17,7 +17,7 @@ You may also have to downgrade to node v16.17.0 due to a [Webpack encryption iss
 
 ## Assumptions
 
-The tests were written with the assumption that the test samples contained the full extent of the app's functionality (i.e. providing a list of only bands and their associated festivals).
+The tests were written with the assumption that [this](https://github.com/EATechnology/ea-coding-test-samples/tree/main/web) contained the full extent of the app's functionality (i.e. providing a list of only bands and their associated festivals).
 
 Example:
 
