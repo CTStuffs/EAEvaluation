@@ -42,5 +42,6 @@ or
 npx cypress run
 ```
 
+Note that the API used in the app has a rate limit, so you may have to wait between test runs.
 
 

@@ -4,11 +4,11 @@ import validBands from "../util"
 describe('Festival tests', () => {
 
   beforeEach(() => {
-    cy.visit('http://localhost:4200') // cy.visit('/') kept returning a 404 error despite baseUrl being defined when I was working on this locally
+    cy.visit('/')
   })
 
   it('should redirect to /festivals', () => {
-    cy.url().should('eq', 'http://localhost:4200/festivals')
+    cy.url().should('eq', Cypress.config('baseUrl') + '/festivals')
   })
 
 
